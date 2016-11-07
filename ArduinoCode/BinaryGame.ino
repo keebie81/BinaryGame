@@ -4,14 +4,14 @@
 // initialize the library with the numbers of the interface pins
 LiquidCrystal lcd(7, 8, 9, 10, 11, 12);
 
-const int Pin0 = 6;  // Binary number 2^1 or 1
-const int Pin1 = 5;  // Binary number 2^2 or 2
-const int Pin2 = 4;  // Binary number 2^3 or 4
-const int Pin3 = 3;  // Binary number 2^4 or 8
-const int Pin4 = A4; // Binary number 2^5 or 16
-const int Pin5 = A3; // Binary number 2^6 or 32
-const int Pin6 = A2; // Binary number 2^7 or 64
-const int Pin7 = A1; // Binary number 2^8 or 128
+const int Pin0 = 6;  // Binary number 2^0 or 1
+const int Pin1 = 5;  // Binary number 2^1 or 2
+const int Pin2 = 4;  // Binary number 2^2 or 4
+const int Pin3 = 3;  // Binary number 2^3 or 8
+const int Pin4 = A4; // Binary number 2^4 or 16
+const int Pin5 = A3; // Binary number 2^5 or 32
+const int Pin6 = A2; // Binary number 2^6 or 64
+const int Pin7 = A1; // Binary number 2^7 or 128
 const int easyMode = A0; // Easy mode is 0-15, Hard is 0-255
 
 int BinaryValue; // Value for adding up numbers to compare to random number
